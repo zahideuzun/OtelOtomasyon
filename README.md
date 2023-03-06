@@ -2,7 +2,7 @@
 
 	
 	
-	Senaryo:
+Senaryo:
 •	4 katlı bir otel var. İlk 3 katının her birinde 10’ar tane oda bulunuyor. 4. Katta ise Kral odası bulunmaktadır.  
 •	1. Katta bulunan odalar tek kişilik, 2. katta bulunan odalar 2 kişilik, 3. Katta bulunan odalar 3 kişilik ve kral dairesi de 5 kişiliktir. 
 •	Her bir katın kendine göre oda fiyatlandırması ve oda sayısı var. Kat sayısına göre oda fiyatı x, 2x, 3x şeklinde belirlenmektedir.
