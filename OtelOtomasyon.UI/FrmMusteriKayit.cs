@@ -43,7 +43,7 @@ namespace OtelOtomasyon.UI
 		}
 
 		/// <summary>
-		/// bilgileri alinan müsteriyi rez listesine ekledigimiz event
+		/// bilgileri alinan müsteriyi rezervasyon listesine ekledigimiz event
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
@@ -70,7 +70,6 @@ namespace OtelOtomasyon.UI
 			}
 			else
 			{
-				//oda dolu
 				MessageBox.Show("Lütfen doğru giriş yaptığınızdan emin olun!");
 			}
 		}
@@ -122,15 +121,6 @@ namespace OtelOtomasyon.UI
 							OdaDurum = OdaDurumu.Bos,
 							Kapasite = i
 						},
-
-						Musteri = new Musteri()
-						{
-							AdSoyad = tbAdSoyad.Text,
-							DogumTarihi = mtbDogumTarih.Text,
-							TcKimlik = mtbTcKimlik.Text,
-							Adres = tbAdres.Text
-						}
-
 					};
 					btn1.Click += Btn_Click;
 					flpKatlar.Controls.Add(btn1);

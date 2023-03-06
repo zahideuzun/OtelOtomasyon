@@ -51,9 +51,7 @@ namespace OtelOtomasyon.UI
 		{
 			List<OdaRezervasyon> sorgu = _odemeAlinanMusteriListesi.Where(x =>
 				x.GirisTarihi <= numTarih1.Value && numTarih1.Value >= x.CikisTarihi).ToList();
-
 			ListViewOlustur(sorgu);
-
 		}
 
 		/// <summary>
@@ -82,7 +80,6 @@ namespace OtelOtomasyon.UI
 				lv.SubItems.Add(item.Oda.Numarasi.ToString());
 				lv.SubItems.Add(item.Oda.Fiyati.ToString());
 				lstRapor.Items.Add(lv);
-
 			}
 		}
 

@@ -93,12 +93,7 @@ namespace OtelOtomasyon.UI
 			lblToplam.Visible = false;
 			lblToplam.Visible = false;
 			EkHizmetleriEkle();
-
-			// musteri kayit ekraninda kaydedilen musterileri ödeme ekranindaki musteri bulma comboboxina tasir.
-			foreach (OdaRezervasyon item in _rezervasyonuYapilanMusteriler) 
-			{
-				cmbMusteriler.Items.Add(item);
-			}
+			MusterileriGetir();
 		}
 
 		/// <summary>
@@ -168,6 +163,15 @@ namespace OtelOtomasyon.UI
 			}
 		}
 
-
+		/// <summary>
+		///  musteri kayit ekraninda kaydedilen musterileri ödeme ekranindaki musteri bulma comboboxina tasir.
+		/// </summary>
+		void MusterileriGetir()
+		{
+			foreach (OdaRezervasyon item in _rezervasyonuYapilanMusteriler)
+			{
+				cmbMusteriler.Items.Add(item);
+			}
+		}
 	}
 }
