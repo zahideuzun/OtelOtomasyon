@@ -1,5 +1,7 @@
 # OtelOtomasyon
 
+	
+	
 	Senaryo:
 •	4 katlı bir otel var. İlk 3 katının her birinde 10’ar tane oda bulunuyor. 4. Katta ise Kral odası bulunmaktadır.  
 •	1. Katta bulunan odalar tek kişilik, 2. katta bulunan odalar 2 kişilik, 3. Katta bulunan odalar 3 kişilik ve kral dairesi de 5 kişiliktir. 
